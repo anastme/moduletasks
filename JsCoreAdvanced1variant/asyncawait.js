@@ -11,9 +11,8 @@ async function fetchData(url) {
     }
   }
   
-  // Example usage of the function
   (async () => {
-    const apiUrl = 'https://api.example.com/data'; // Replace with the actual API URL
+    const apiUrl = 'https://api.example.com/data'; 
     try {
       const result = await fetchData(apiUrl);
       console.log(result);
